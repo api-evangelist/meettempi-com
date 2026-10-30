@@ -64,7 +64,7 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-MeetTempi provides a scheduling link platform for teams and AI assistants, enabling users to create shareable booking links that integrate with Google, Outlook, and iCloud calendars. The service supports AI-driven booking via MCP, offers features like recurring meetings, Outlook and Teams integration, and a public API for developers to embed scheduling functionality into their applications. It aims to streamline meeting coordination for both human teams and AI assistants.
+MeetTempi offers a scheduling link platform that lets teams and AI assistants create shareable booking links, integrating with Google, Outlook, and iCloud calendars. Users can book meetings directly or via AI assistants through MCP, supporting recurring meetings and round‑robin scheduling. The service streamlines coordination by syncing booked times to calendars and provides a public API for developers to embed scheduling functionality into their applications, enhancing productivity for both human teams and AI assistants.
 
 **Areas:** Company · Scheduling · AI · Calendar · Collaboration
 
@@ -72,15 +72,45 @@ MeetTempi provides a scheduling link platform for teams and AI assistants, enabl
 
 Everything profiled for meettempi-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/meettempi-com/](https://apis.io/providers/meettempi-com/)** — or go straight to one of the APIs or properties below.
 
+### APIs (2)
+
+- [Tempi API](https://apis.io/apis/meettempi-com/tempi-api/) — Scheduling API. Public operations let anyone, including AI assistants, look up open times and book a meeting.
+- [Tempi API API](https://apis.io/apis/meettempi-com/tempi-api-api/) — Scheduling API. Public operations let anyone, including AI assistants, look up open times and book a meeting. Account operations need an API key…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Meettempi Com Webhooks](https://apis.io/asyncapis/meettempi-com/meettempi-com-webhooks/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Meettempi Com Context](https://apis.io/jsonld/meettempi-com/meettempi-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [meettempi-com API Rules](https://apis.io/rules/meettempi-com/meettempi-com-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Meettempi Com Domain Security](https://apis.io/security/meettempi-com/meettempi-com-domain-security/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://meettempi.com/)
-- [Documentation](https://meettempi.com/)
-- [Getting started](https://meettempi.com/)
-- [API reference](https://meettempi.com/)
-- [Pricing](https://meettempi.com/pricing)
+- [API reference](https://meettempi.com/changelog)
 - [Support](https://meettempi.com/)
 - [Blog](https://meettempi.com/)
 - [Terms of service](https://meettempi.com/terms)
@@ -89,7 +119,46 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/meettempi-com/](https://apis.io/providers/meettempi-com/).
+**Kin Score 43.5** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 45.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 39.5 |
+| Developer ergonomics | 14.3 |
+| Access clarity | 34.2 |
+
+**Agent readiness 38.6** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/meettempi-com/](https://apis.io/providers/meettempi-com/).
 
 ## How this profile is made
 
